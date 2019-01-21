@@ -11,16 +11,29 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 class ProjectTest extends TestCase
 {
     use  WithFaker, RefreshDatabase;
+
     /**
      * A basic test example.
      *
      * @return void
      */
-    public function test_only_authenticated_user_can_create_project()
+    public function test_guest_cannot_create_project()
     {
         $attributes = factory(Project::class)->raw();
 
         $this->post('/projects', $attributes)->assertRedirect('login');
+    }
+
+    public function test_guest_cannot_view_projects()
+    {
+        $this->get('/projects')->assertRedirect('login');
+    }
+
+    public function test_guest_cannot_view_a_single_project()
+    {
+        $project = factory(Project::class)->create();
+
+        $this->get($project->path())->assertRedirect('login');
     }
 
     public function test_a_user_can_create_project()
@@ -41,22 +54,35 @@ class ProjectTest extends TestCase
         $this->get('/projects')->assertSee($attributes['title']);
     }
 
-    public function test_a_user_can_view()
+    public function test_an_authenticated_user_cannot_view_projects_of_others()
     {
-        $this->actingAs(factory(User::class)->create());
+        $this->be(factory(User::class)->create());
 
         $project = factory(Project::class)->create();
 
+        $this->get($project->path())->assertStatus(403);
+    }
+
+    public function test_a_user_can_view_their_projects()
+    {
+        $this->be(factory(User::class)->create());
+
+        $this->withoutExceptionHandling();
+
+        $this->actingAs(factory(User::class)->create());
+
+        $project = factory(Project::class)->create(['owner_id' => auth()->id()]);
+
         $this->get($project->path())
             ->assertSee($project->title)
-            ->assertSee($project->title);
+            ->assertSee($project->description);
     }
 
     public function test_a_project_requires_title()
     {
         $this->actingAs(factory(User::class)->create());
 
-        $attributes = factory(Project::class)->raw(['title'=>'']);
+        $attributes = factory(Project::class)->raw(['title' => '']);
 
         $this->post('/projects', $attributes)->assertSessionHasErrors('title');
     }
@@ -65,7 +91,7 @@ class ProjectTest extends TestCase
     {
         $this->actingAs(factory(User::class)->create());
 
-        $attributes = factory(Project::class)->raw(['description'=>'']);
+        $attributes = factory(Project::class)->raw(['description' => '']);
 
         $this->post('/projects', $attributes)->assertSessionHasErrors('description');
     }
