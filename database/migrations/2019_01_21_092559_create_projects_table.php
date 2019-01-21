@@ -17,6 +17,7 @@ class CreateProjectsTable extends Migration {
 			$table->integer('id', true);
 			$table->string('title');
 			$table->text('description')->nullable();
+			$table->integer('owner_id')->nullable()->index('fk_projects_users_idx');
 			$table->timestamps();
 		});
 	}
