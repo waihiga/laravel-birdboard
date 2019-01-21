@@ -94,6 +94,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/xethron/laravel-4-generators" />
       <path value="$PROJECT_DIR$/vendor/xethron/migrations-generator" />
+      <path value="$PROJECT_DIR$/vendor/laravel-frontend-presets/bulma" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
