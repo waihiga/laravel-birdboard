@@ -1,13 +1,8 @@
-<!Doctype html>
+@extends('layouts.app')
 
-<html>
-<head>
-
-</head>
-<body>
-<h1>{{$project->title}}</h1>
-<div>
-    {{$project->description}}
-</div>
-</body>
-</html>
+@section('content')
+    <h1>{{$project->title}}</h1>
+    <div>
+        {{$project->description}}
+    </div>
+@endsection

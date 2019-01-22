@@ -1,14 +1,7 @@
-<!Doctype html>
+@extends('layouts.app')
 
-<html>
-<head>
-    <title></title>
-
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
-</head>
-<body>
-<div>
-    <form method="POST" action="/projects" class="container" style="padding-top: 40px ">
+@section('content')
+    <form method="POST" action="/projects">
 
         @csrf
 
@@ -37,6 +30,4 @@
             </div>
         </div>
     </form>
-</div>
-</body>
-</html>
+@endsection

@@ -1,10 +1,6 @@
-<!Doctype html>
+@extends('layouts.app')
 
-<html>
-<head>
-
-</head>
-<body>
+@section('content')
       <h1>BirdBoards</h1>
 
      <ul>
@@ -19,5 +15,4 @@
              <li>No projects here</li>
          @endforelse
      </ul>
-</body>
-</html>
+@endsection
