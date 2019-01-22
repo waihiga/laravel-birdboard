@@ -5,4 +5,6 @@
     <div>
         {{$project->description}}
     </div>
+
+    <a href="/projects">Go back</a>
 @endsection

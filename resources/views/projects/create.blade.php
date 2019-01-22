@@ -27,6 +27,7 @@
 
             <div class="controls">
                 <button type="submit" class="button is-link" >Submit</button>
+                <a href="/projects">Cancel</a>
             </div>
         </div>
     </form>

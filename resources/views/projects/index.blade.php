@@ -1,8 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-      <h1>BirdBoards</h1>
-
+    <div style="display: flex; align-items: center">
+        <h1 style="margin-right: auto">BirdBoards</h1>
+        <a href="/projects/create">New Project</a>
+    </div>
      <ul>
          @forelse($projects as $project)
              <li>
