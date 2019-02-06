@@ -17,6 +17,7 @@
  *
  * @import "tailwindcss/preflight";
  */
+//noinspection ALL
 @tailwind preflight;
 
 /**
@@ -47,7 +48,7 @@ button{
     @apply .bg-blue .text-white .no-underline;
 }
 .card{
-
+    @apply .bg-white .p-5 .rounded-lg .shadow;
 }
 /**
  * This injects all of Tailwind's utility classes, generated based on your
