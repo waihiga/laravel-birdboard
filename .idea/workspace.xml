@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8a9703a-df5c-4882-a95f-7bd27c71095b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,22 +21,63 @@
       <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
+            <state relative-caret-position="1300">
               <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
-                <element signature="e#1460#2023#1#PHP" />
+                <element signature="e#40#56#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Procfile">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/projects/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="200">
+              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo.svg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/images/logo.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -79,13 +122,14 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/tailwind.js" />
         <option value="$PROJECT_DIR$/resources/views/projects/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/show.blade.php" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/public/images/logo.svg" />
       </list>
     </option>
   </component>
@@ -222,6 +266,28 @@
               <item name="birdboard" type="b2602c69:ProjectViewProjectNode" />
               <item name="birdboard" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="birdboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="birdboard" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="birdboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="birdboard" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="birdboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="birdboard" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="birdboard" type="b2602c69:ProjectViewProjectNode" />
+              <item name="birdboard" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -230,7 +296,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="database.php&#9;FILE&#9;file:///Users/dmburu/code/birdboard/config/database.php&#10;tai&#9;FILE&#9;file:///Users/dmburu/code/birdboard/tailwind.js&#10;show&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/show.blade.php&#10;Project&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectController.php&#10;app&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/sass/app.scss&#10;app.sc&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/sass/app.scss&#10;boo&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/js/bootstrap.js&#10;web&#9;FILE&#9;file:///Users/dmburu/code/birdboard/webpack.mix.js&#10;.env&#9;FILE&#9;file:///Users/dmburu/code/birdboard/.env&#10;pack&#9;FILE&#9;file:///Users/dmburu/code/birdboard/package.json&#10;webpackmi&#9;FILE&#9;file:///Users/dmburu/code/birdboard/webpack.mix.js&#10;pac&#9;FILE&#9;file:///Users/dmburu/code/birdboard/package.json&#10;com&#9;FILE&#9;file:///Users/dmburu/code/birdboard/composer.json&#10;a&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/js/app.js&#10;welcom&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/welcome.blade.php&#10;cre&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/create.blade.php&#10;app.scs&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/sass/app.scss&#10;app.j&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/js/app.js&#10;composer.js&#9;FILE&#9;file:///Users/dmburu/code/birdboard/composer.json&#10;crea&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/create.blade.php&#10;we&#9;FILE&#9;file:///Users/dmburu/code/birdboard/routes/web.php&#10;package&#9;FILE&#9;file:///Users/dmburu/code/birdboard/package.json&#10;ProjectController&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectController.php&#10;data&#9;FILE&#9;file:///Users/dmburu/code/birdboard/database/seeds/DatabaseSeeder.php&#10;Dat&#9;FILE&#9;file:///Users/dmburu/code/birdboard/database/seeds/DatabaseSeeder.php&#10;WEB&#9;FILE&#9;file:///Users/dmburu/code/birdboard/routes/web.php&#10;DatabaseSeeder&#9;null&#9;null&#10;ProjectCOn&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectController.php&#10;User&#9;FILE&#9;file:///Users/dmburu/code/birdboard/database/factories/UserFactory.php&#10;web.php&#9;FILE&#9;file:///Users/dmburu/code/birdboard/routes/web.php" />
+    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/index.blade.php&#10;Pro&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectController.php&#10;User&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/User.php&#10;database.php&#9;FILE&#9;file:///Users/dmburu/code/birdboard/config/database.php&#10;tai&#9;FILE&#9;file:///Users/dmburu/code/birdboard/tailwind.js&#10;show&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/show.blade.php&#10;Project&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectController.php&#10;app&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/sass/app.scss&#10;app.sc&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/sass/app.scss&#10;boo&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/js/bootstrap.js&#10;web&#9;FILE&#9;file:///Users/dmburu/code/birdboard/webpack.mix.js&#10;.env&#9;FILE&#9;file:///Users/dmburu/code/birdboard/.env&#10;pack&#9;FILE&#9;file:///Users/dmburu/code/birdboard/package.json&#10;webpackmi&#9;FILE&#9;file:///Users/dmburu/code/birdboard/webpack.mix.js&#10;pac&#9;FILE&#9;file:///Users/dmburu/code/birdboard/package.json&#10;com&#9;FILE&#9;file:///Users/dmburu/code/birdboard/composer.json&#10;a&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/js/app.js&#10;welcom&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/welcome.blade.php&#10;cre&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/create.blade.php&#10;app.scs&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/sass/app.scss&#10;app.j&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/js/app.js&#10;composer.js&#9;FILE&#9;file:///Users/dmburu/code/birdboard/composer.json&#10;crea&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/create.blade.php&#10;we&#9;FILE&#9;file:///Users/dmburu/code/birdboard/routes/web.php&#10;package&#9;FILE&#9;file:///Users/dmburu/code/birdboard/package.json&#10;ProjectController&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectController.php&#10;data&#9;FILE&#9;file:///Users/dmburu/code/birdboard/database/seeds/DatabaseSeeder.php&#10;Dat&#9;FILE&#9;file:///Users/dmburu/code/birdboard/database/seeds/DatabaseSeeder.php&#10;WEB&#9;FILE&#9;file:///Users/dmburu/code/birdboard/routes/web.php&#10;DatabaseSeeder&#9;null&#9;null&#10;ProjectCOn&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectController.php&#10;web.php&#9;FILE&#9;file:///Users/dmburu/code/birdboard/routes/web.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -267,12 +333,14 @@
       <updated>1548055025327</updated>
       <workItem from="1548055026704" duration="12621000" />
       <workItem from="1548079124325" duration="13780000" />
-      <workItem from="1548223618473" duration="1258000" />
+      <workItem from="1548223618473" duration="1553000" />
+      <workItem from="1548962958098" duration="177000" />
+      <workItem from="1549452543952" duration="337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27659000" />
+    <option name="totallyTimeSpent" value="28468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -282,10 +350,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -332,9 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding>
-            <element signature="e#33#49#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -373,9 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#30#46#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -423,13 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -455,9 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#30#46#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -480,9 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="e#33#49#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,9 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -589,37 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tailwind.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
           <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/projects/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,20 +658,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
+        <state relative-caret-position="1300">
           <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-          <folding>
-            <element signature="e#1460#2023#1#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/projects/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/logo.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
