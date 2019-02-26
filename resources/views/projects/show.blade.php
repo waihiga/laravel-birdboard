@@ -26,9 +26,7 @@
 
                 <div>
                     <h2 class="text-lg text-grey  font-normal mb-3">General Notes</h2>
-                    <textarea class="card w-full" style="min-height: 200px">
-                         Lorieum ipsum...
-                    </textarea>
+                    <textarea class="card w-full" style="min-height: 200px">Lorieum ipsum.</textarea>
                 </div>
 
             </div>
