@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8a9703a-df5c-4882-a95f-7bd27c71095b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ProjectFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProjectFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/projects/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/projects/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/ProjectTaskTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ProjectTaskTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/ProjectUnitTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ProjectUnitTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,26 +21,47 @@
       <file leaf-file-name="ProjectTaskTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/ProjectTaskTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="30" column="45" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="398">
+              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskFactory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/factories/TaskFactory.php">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="419">
+              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManageProjectTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectTest.php">
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/projects/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="520">
+              <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+              <folding>
+                <element signature="e#40#56#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2019_01_21_101607_create_projects_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_21_101607_create_projects_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -55,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -106,17 +121,17 @@
         <option value="$PROJECT_DIR$/resources/views/projects/card.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/projects/index.blade.php" />
         <option value="$PROJECT_DIR$/tests/TestCase.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Task.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ProjectUnitTest.php" />
-        <option value="$PROJECT_DIR$/resources/views/projects/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Project.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_08_211612_create_tasks_table.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/ProjectTaskTest.php" />
         <option value="$PROJECT_DIR$/database/factories/ProjectFactory.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" />
         <option value="$PROJECT_DIR$/database/factories/TaskFactory.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ManageProjectTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ProjectTaskTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php" />
+        <option value="$PROJECT_DIR$/resources/views/projects/show.blade.php" />
       </list>
     </option>
   </component>
@@ -295,7 +310,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file:///Users/dmburu/code/birdboard/routes/web.php&#10;test_a_project_requires_title&#9;null&#9;null&#10;test_a_user_can_create_project&#9;null&#9;null&#10;ProjectCon&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;Ma&#9;FILE&#9;file:///Users/dmburu/code/birdboard/tests/Feature/ManageProjectTest.php&#10;show&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/show.blade.php&#10;Pro&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;Project&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Project.php&#10;create&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/create.blade.php&#10;ProjectTas&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;we&#9;FILE&#9;file:///Users/dmburu/code/birdboard/routes/web.php&#10;P&#9;FILE&#9;file:///Users/dmburu/code/birdboard/tests/Feature/ProjectTaskTest.php&#10;Tes&#9;FILE&#9;file:///Users/dmburu/code/birdboard/tests/TestCase.php&#10;TestC&#9;null&#9;null&#10;ManageProjectTest.php&#9;FILE&#9;file:///Users/dmburu/code/birdboard/tests/Feature/ManageProjectTest.php&#10;card&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/card.blade.php&#10;index&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/index.blade.php&#10;User&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/User.php&#10;database.php&#9;FILE&#9;file:///Users/dmburu/code/birdboard/config/database.php&#10;tai&#9;FILE&#9;file:///Users/dmburu/code/birdboard/tailwind.js&#10;app&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/sass/app.scss&#10;app.sc&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/sass/app.scss&#10;boo&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/js/bootstrap.js&#10;.env&#9;FILE&#9;file:///Users/dmburu/code/birdboard/.env&#10;pack&#9;FILE&#9;file:///Users/dmburu/code/birdboard/package.json&#10;webpackmi&#9;FILE&#9;file:///Users/dmburu/code/birdboard/webpack.mix.js&#10;pac&#9;FILE&#9;file:///Users/dmburu/code/birdboard/package.json&#10;com&#9;FILE&#9;file:///Users/dmburu/code/birdboard/composer.json&#10;a&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/js/app.js&#10;welcom&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/welcome.blade.php&#10;cre&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/create.blade.php&#10;app.scs&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/sass/app.scss&#10;app.j&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/js/app.js&#10;composer.js&#9;FILE&#9;file:///Users/dmburu/code/birdboard/composer.json&#10;crea&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/create.blade.php&#10;package&#9;FILE&#9;file:///Users/dmburu/code/birdboard/package.json&#10;ProjectController&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectController.php&#10;data&#9;FILE&#9;file:///Users/dmburu/code/birdboard/database/seeds/DatabaseSeeder.php&#10;Dat&#9;FILE&#9;file:///Users/dmburu/code/birdboard/database/seeds/DatabaseSeeder.php&#10;WEB&#9;FILE&#9;file:///Users/dmburu/code/birdboard/routes/web.php&#10;DatabaseSeeder&#9;null&#9;null&#10;ProjectCOn&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectController.php&#10;web.php&#9;FILE&#9;file:///Users/dmburu/code/birdboard/routes/web.php" />
+    <property name="SearchEverywhereHistoryKey" value="ProjectC&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectController.php&#10;show&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/show.blade.php&#10;.env&#9;FILE&#9;file:///Users/dmburu/code/birdboard/.env&#10;Projec&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;web&#9;FILE&#9;file:///Users/dmburu/code/birdboard/routes/web.php&#10;test_a_project_requires_title&#9;null&#9;null&#10;test_a_user_can_create_project&#9;null&#9;null&#10;ProjectCon&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;Ma&#9;FILE&#9;file:///Users/dmburu/code/birdboard/tests/Feature/ManageProjectTest.php&#10;Pro&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;Project&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Project.php&#10;create&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/create.blade.php&#10;ProjectTas&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectTasksController.php&#10;we&#9;FILE&#9;file:///Users/dmburu/code/birdboard/routes/web.php&#10;P&#9;FILE&#9;file:///Users/dmburu/code/birdboard/tests/Feature/ProjectTaskTest.php&#10;Tes&#9;FILE&#9;file:///Users/dmburu/code/birdboard/tests/TestCase.php&#10;TestC&#9;null&#9;null&#10;ManageProjectTest.php&#9;FILE&#9;file:///Users/dmburu/code/birdboard/tests/Feature/ManageProjectTest.php&#10;card&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/card.blade.php&#10;index&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/index.blade.php&#10;User&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/User.php&#10;database.php&#9;FILE&#9;file:///Users/dmburu/code/birdboard/config/database.php&#10;tai&#9;FILE&#9;file:///Users/dmburu/code/birdboard/tailwind.js&#10;app&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/sass/app.scss&#10;app.sc&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/sass/app.scss&#10;boo&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/js/bootstrap.js&#10;pack&#9;FILE&#9;file:///Users/dmburu/code/birdboard/package.json&#10;webpackmi&#9;FILE&#9;file:///Users/dmburu/code/birdboard/webpack.mix.js&#10;pac&#9;FILE&#9;file:///Users/dmburu/code/birdboard/package.json&#10;com&#9;FILE&#9;file:///Users/dmburu/code/birdboard/composer.json&#10;a&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/js/app.js&#10;welcom&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/welcome.blade.php&#10;cre&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/create.blade.php&#10;app.scs&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/sass/app.scss&#10;app.j&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/js/app.js&#10;composer.js&#9;FILE&#9;file:///Users/dmburu/code/birdboard/composer.json&#10;crea&#9;FILE&#9;file:///Users/dmburu/code/birdboard/resources/views/projects/create.blade.php&#10;package&#9;FILE&#9;file:///Users/dmburu/code/birdboard/package.json&#10;ProjectController&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectController.php&#10;data&#9;FILE&#9;file:///Users/dmburu/code/birdboard/database/seeds/DatabaseSeeder.php&#10;Dat&#9;FILE&#9;file:///Users/dmburu/code/birdboard/database/seeds/DatabaseSeeder.php&#10;WEB&#9;FILE&#9;file:///Users/dmburu/code/birdboard/routes/web.php&#10;DatabaseSeeder&#9;null&#9;null&#10;ProjectCOn&#9;FILE&#9;file:///Users/dmburu/code/birdboard/app/Http/Controllers/ProjectController.php&#10;web.php&#9;FILE&#9;file:///Users/dmburu/code/birdboard/routes/web.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -340,7 +355,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37827000" />
+    <option name="totallyTimeSpent" value="39630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -526,13 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1300">
@@ -544,13 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
@@ -599,13 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="25" column="77" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
@@ -627,20 +621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_21_101607_create_projects_table.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/ProjectUnitTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
           <caret line="33" column="42" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/projects/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -679,17 +663,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ProjectTaskTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="30" column="45" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="360">
+          <caret line="27" column="77" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -702,8 +679,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/ManageProjectTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="549">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <marker date="1552393410146" expanded="true" signature="1899:2398" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectTasksController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ProjectTaskTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_21_101607_create_projects_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/projects/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="31" column="22" lean-forward="true" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProjectController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
