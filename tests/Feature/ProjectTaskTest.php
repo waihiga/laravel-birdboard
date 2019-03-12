@@ -18,13 +18,24 @@ class ProjectTaskTest extends TestCase
 
         $this->signIn();
 
-        $project = factory(Project::class)->create(['owner_id' => auth()->id()]);
+        $project = auth()->user()->projects()->create(factory(Project::class)->raw());
 
         $this->post($project->path() . '/tasks',[
-            'body' => 'Lorium ipsum'
+            'body' => 'Test Task'
         ]);
 
         $this->get($project->path())
-            ->assertSee('Lorium ipsum');
+            ->assertSee('Test Task');
+    }
+
+    public function test_task_required_a_body()
+    {
+        $this->signIn();
+
+        $project = auth()->user()->projects()->create(factory(Project::class)->raw());
+
+        $attributes = factory('App\Task')->raw(['body' => '']);
+
+        $this->post($project->path() .'/tasks', $attributes)->assertSessionHasErrors('body');
     }
 }
